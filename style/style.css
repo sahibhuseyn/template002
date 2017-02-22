@@ -1,0 +1,414 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+.full{
+	width: 100%;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
+
+/*top site*/
+#main{
+	background: rgb(231, 76, 60);
+	height: 500px;
+}
+#main .wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#main .wrapper .logo{
+	display: flex;
+	justify-content:flex-start;
+	top:10px;
+}
+
+#main .logo img{
+	margin-top: 5px;
+	width: 45px;
+	height: 15px;
+}
+#main .logo>h3{
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+#main .logo>h3>span{
+	opacity: 0.5;
+}
+#main .nav ul li a, #portfolio .portfolioItems a{
+	text-decoration: none;
+	color: #fff;
+}
+#main .nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 8px;
+	opacity: 0.5;
+}
+
+#main .gear{
+	text-align: center;
+	margin-top: 50px;
+}
+#main .gear img{
+	height: 100px;
+	width: 100px;
+}
+#main .gear h1{
+	text-transform: uppercase;
+}
+#main .gear a, #portfolio .portfolioItems a{
+	text-decoration: none;
+	padding: 8px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+#main .gear h1, .gear a{
+	color: white;
+}
+#main .gear .horizontaLine{
+	margin: 0 auto;
+	margin-top: 55px;
+	width: 1px;
+	height: 65px;
+	background: #fff;
+}
+
+/*team section*/
+#team{
+	height: 350px;
+	background: rgb(245, 245, 245);	
+}
+#team .heading{
+	width: 100%;
+}
+
+#team .heading h1, .team p{
+	font-size: 12px;
+	margin:0;
+	padding: 0;
+}
+#team .heading h1{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#team .heading {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+#team .horizontaLine{
+	height: 60px;
+	border: 1px solid rgb(180, 187, 194);
+
+}
+#team .teaMembers{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+#team .teaMembers div{
+	border: 1px solid grey;
+	text-align: center;
+}
+#team .teaMembers>div{
+	width: 160px;
+	height:180px;
+	background: #fff;
+	text-align: center;
+}
+#team .teaMembers div h5{
+	padding:0;
+	margin: 0;
+	margin-top: 10px;
+}
+#team .teaMembers .frame{
+	width: 100%;
+	height: 115px;
+}
+#team .teaMembers .frame img{
+	width: 100%;
+	height: 100%;
+}
+#team .socialBtn{
+	margin-top: 10px;
+}
+#team .socialBtn span{
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+/* portfolio section*/
+#portfolio{
+	background: rgb(231, 76, 60);
+	height: 500px;
+}
+
+#portfolio .heading{
+	width: 100%;
+}
+
+#portfolio .heading h1,#portfolio .heading p{
+	font-size: 12px;
+	margin:0;
+	padding: 0;
+	color: #fff;
+}
+#portfolio .heading p{
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+#portfolio .heading h1{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#portfolio .heading {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+#portfolio .horizontaLine{
+	border: 1px solid rgb(180, 187, 194);
+	height: 60px;
+}
+#portfolio .portfolioItems {
+	width: 100%;
+	margin-top: 20px;
+
+	
+}
+#portfolio .portfolioItems .frame{
+	width: 32%;
+	margin: 0 10px 10px 0;
+	height: 175px;
+	float: left;
+}
+#portfolio .portfolioItems .frame img{
+	width: 100%;
+	height: 100%;
+}
+#portfolio .portfolioItems a{
+	text-align: center;
+}
+
+/* services section*/
+
+#services{
+	height: 350px;
+	background: rgb(245, 245, 245);
+}
+
+#services  .heading{
+	width: 100%;
+}
+
+#services  .heading h1,#portfolio .heading p{
+	font-size: 12px;
+	margin:0;
+	padding: 0;
+}
+#services  .heading p{
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+#services  .heading h1{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#services  .heading {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+#services .horizontaLine{
+	/*background: rgb(180, 187, 194);*/
+	border: 1px solid rgb(180, 187, 194);
+	height: 60px;
+}
+#services .description{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+#services .description div{
+	text-align: center;
+	margin-right: 10px;
+}
+
+
+/* news section*/
+#news{
+	background: rgb(231, 76, 60);
+	height: 600px;
+}
+#news  .heading{
+	width: 100%;
+}
+
+#news  .heading h1, #news .heading p{
+	font-size: 12px;
+	margin:0;
+	padding: 0;
+	color: white;
+}
+#news  .heading p{
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+#news  .heading h1{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#news  .heading {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+#news .horizontaLine{
+	border: 1px solid rgb(180, 187, 194);
+	height: 60px;
+}
+#news .description{
+	display: flex;
+	justify-content: space-around;
+}
+#news .description .descriptionItems{
+	text-align: center;
+	height: 350px; 
+	width: 22%;
+	background: #fff;
+/*	float: left;
+*/	margin-right: 20px;
+	margin-top: 50px;
+	}
+#news .description .descriptionItems .frame{
+	width: 100%;
+	height: 200px;
+}
+#news .description .descriptionItems .frame img{
+	width: 100%;
+	height: 100%;
+}
+
+/*twitter section*/
+#twitter{
+	width: 100%;
+	height: 200px;
+	background: rgb(52, 152, 219);
+}
+#twitter .wrapper{
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+}
+#twitter .wrapper i{
+	margin-top: 25px;
+	font-size: 2em;
+}
+#contacts  .heading{
+	width: 100%;
+}
+
+/*contacts*/
+#contacts{
+	height: 500px;
+	background: rgb(245, 245, 245);
+}
+
+#contacts  .heading h1, #news .heading p{
+	font-size: 12px;
+	margin:0;
+	padding: 0;
+
+}
+#contacts .heading p{
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+#contacts .heading h1{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+#contacts .heading {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+#contacts .horizontaLine{
+	border: 1px solid rgb(180, 187, 194);
+	height: 60px;
+}
+#contacts .contactsLeft{
+	margin-top: 15px;
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+#contacts .contactsLeft input{
+	width: 97%;
+	padding: 12px 10px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+#contacts .contactsLeft a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+#contacts .contactsLeft .send{
+	width: 97%;
+	padding: 5px 0;
+	background: rgb(231, 76, 60);
+	margin-top: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+}
+#contacts .contactsRight{
+	margin-top: 15px;
+	width: 50%;
+	float:right;
+}
+#contacts .contactsRight textarea{
+	width: 97%;
+	height: 100%;
+}
+
+/*footer section*/
+#footer{
+	width: 100%;
+	height: 100px;
+	background: rgb(231, 76, 60);
+}
+#footer .wrapper{
+	text-align: center;
+}
+#footer img{
+	width: 75px;
+	height: 75px;
+}
+#footer .wrapper .horizontaLine{
+	margin: 0 auto;
+	width: 1px;
+	height: 23px;
+	background: #fff;
+}
